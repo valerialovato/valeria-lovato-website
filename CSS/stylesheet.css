@@ -233,7 +233,7 @@ nav {
 
 .back-to-projects {
 	color: black;
-	font-size: 1.2em;
+	font-size: 1.3em;
 	font-weight: bold;
   margin: 4em;
 	text-decoration: none;
@@ -254,7 +254,7 @@ nav {
 .pj-page-description {
 	display: flex;
 	flex-direction: row;
-	font-size: 1.2em;
+	font-size: 1.3em;
 	width: 100%;
 	justify-content: space-between;
 	align-items: flex-start;
@@ -282,7 +282,7 @@ nav {
 }
 
 .pj-pic {
-	width: 400px;
+	width: 500px;
 	align-self: flex-end;
 	margin: 2em 0;
 }
@@ -356,12 +356,12 @@ nav {
 }
 
 #contact-container li {
-	font-size: 1.2em;
+	font-size: 1.3em;
 }
 
 #contact-container a {
 	color: black;
-	font-size: 1.2em;
+	font-size: 1.3em;
   font-weight: bold;
 }
 
