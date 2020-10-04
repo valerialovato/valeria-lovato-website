@@ -31,6 +31,7 @@ header {
 
 #portfolio-page .bg_img {
 	background-image: url("/IMG/landing\ img.JPG");
+	background-color: grey;
 	min-height: 100vh;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -45,7 +46,6 @@ h1>a {
 }
 
 #navContainer {
-	/* position: absolute; */
 	padding: 20px;
 	width: 100%;
 	display: flex;
@@ -64,7 +64,7 @@ nav {
 }
 
 .title_nav {
-	font-size: 2em;
+	font-size: 2rem;
 	float: left;
 	margin-left: 3rem;
 }
@@ -82,23 +82,10 @@ nav {
 }
 
 .flexNav li a{
-	font-size: 1.8em;
+	font-size: 1.3rem;
 	margin-left: 20px;
 	text-decoration: none;
 	padding: 12px 10px 10px 10px;
-}
-
-@media (max-width: 1000px) {
-	.flexNav ul {
-		flex-wrap: wrap;
-	}
-}
-
-@media (max-width: 1000px) {
-	.flexNav li {
-		flex: 1 1 50%;
-		align-self: flex-end;
-	}
 }
 
 .blackNav li:hover a{
@@ -117,6 +104,21 @@ nav {
 	left: 3rem;
 	font-size: 5em;
 	color: black;
+}
+
+@media (max-width: 1000px) {
+	#navContainer {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.flexNav ul {
+		flex-wrap: wrap;
+		flex-direction: column;
+	}	
+	.flexNav li a {
+		margin-left: 0;
+		padding: 0;
+	}
 }
 
 /* PROJECT THUMBNAILS */
@@ -354,21 +356,6 @@ nav {
 	margin-right: 4em;
 }
 
-@media (max-width: 1000px) {
-	.about-container {
-		flex-direction: column;
-  	width: 100%;
-	}
-	.profile-pic {
-		width: 100%;
-    padding: 0;
-	}
-	.about-container p {
-		width: 80%;
-    margin: 4em auto;
-	}
-}
-
 #cv-title {
 	margin-left: 3rem;
 	font-size: 2rem;
@@ -387,20 +374,12 @@ nav {
 	padding: 2em;
 	justify-content: space-between;
 }
-/* 
-#cv-container ul, ol {
-	background-color: red;
-} */
 
 .cv-flex-container {
 	display: flex;
 	flex-direction: row;
 	margin-bottom: 20px;
 }
-/* 
-.dates {
-	list-style: none;
-} */
 
 .item-flex-container {
 	display: flex;
@@ -412,6 +391,7 @@ nav {
 .left-item {
 	margin: auto 0;
 	width: 50%;
+	font-size: 1rem;
 }
 
 .right-item {
@@ -449,22 +429,29 @@ h6 {
 	color: black;
 }
 
-
-/* make left and right items same height */
-/* 
-.dates li {
-	height: 100px;
-	font-size: 1.2em;	
+@media (max-width: 1000px) {
+	.about-container {
+		flex-direction: column;
+		width: 100%;
+	}
+	.profile-pic {
+		width: 100%;
+		padding: 0;
+	}
+	.about-container p {
+		width: 80%;
+		margin: 4em auto;
+	}
+	.cv-flex-container {
+		flex-direction: column;
+	}
+	.left-item {
+		margin: 50px 0;
+	}
+	.right-item {
+		width: 100%;
+	}
 }
-
-.edu-item {
-	height: 100px;
-	font-size: 1.2em;
-	margin-bottom: 1em;
-} */
-
-
-
 
 /* CONTACT PAGE */
 
