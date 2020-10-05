@@ -291,6 +291,12 @@ nav {
 	margin: 2em 0;
 }
 
+.project-by {
+	align-self: flex-end;
+	font-size: 1rem;
+	font-weight: bold;
+}
+
 @media (max-width: 1000px) {
 	.pj-page-container {
 		width: 100%;
