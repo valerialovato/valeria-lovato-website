@@ -1,0 +1,15 @@
+<svg id="Livello_2" data-name="Livello 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1417 716">
+
+<title>diagram-text</title><text transform="translate(99.41 78.83)" style="font-size:24px;fill:#517f8e;font-family:MyriadPro-Regular, Myriad Pro;text-decoration:underline"><tspan style="letter-spacing:0.003987630208333333em"><a id="problem">Definition of the problem</a></tspan></text>
+
+<text transform="translate(610.19 78.83)" style="font-size:24px;fill:#517f8e;font-family:MyriadPro-Regular, Myriad Pro;text-decoration:underline"><tspan style="letter-spacing:0.008992513020833334em"><a id="hypotesis" >Hypotesis</a></tspan></text>
+
+<text transform="translate(1116.57 78.83)" style="font-size:24px;fill:#517f8e;font-family:MyriadPro-Regular, Myriad Pro;text-decoration:underline"><tspan style="letter-spacing:-0.00299072265625em"><a id="analysis">Analysis</a></tspan></text>
+
+<text transform="translate(93.46 472.47)" style="font-size:24px;fill:#517f8e;font-family:MyriadPro-Regular, Myriad Pro;text-decoration:underline"><tspan style="letter-spacing:0.009989420572916666em"><a id="prototype">High resolution prototpe</a></tspan></text>
+
+<text transform="translate(569.98 472.47)" style="font-size:24px;fill:#517f8e;font-family:MyriadPro-Regular, Myriad Pro;text-decoration:underline"><tspan style="letter-spacing:-0.07100423177083333em">Testing with users</tspan></text>
+
+<text transform="translate(1019.71 472.47)" style="font-size:24px;fill:#517f8e;font-family:MyriadPro-Regular, Myriad Pro;text-decoration:underline"><tspan style="letter-spacing:-0.013997395833333334em"><a id="wireframe">Low resolution wireframing</a></tspan></text>
+
+</svg>
