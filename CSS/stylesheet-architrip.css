@@ -17,11 +17,11 @@ body {
   padding: 0;
   font-size: 0.85em;
   color: black;
-  background-image: url("/IMG/2-design\ thinking/building-background.svg"), url("/IMG/2-design\ thinking/backpack-background.svg");
+  /* background-image: url("/IMG/2-design\ thinking/building-background.svg"), url("/IMG/2-design\ thinking/backpack-background.svg");
   background-repeat: no-repeat;
   background-size: 600px;
   background-position-y: calc(100vh + 50px), 300vh;
-  background-position-x: 0, right;
+  background-position-x: 0, right; */
 }
 
 
