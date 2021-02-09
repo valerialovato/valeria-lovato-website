@@ -1,0 +1,167 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+ul {
+	margin: 0;
+}
+
+body {
+  font-family: 'Sulphur Point', sans-serif;;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  font-size: 0.85em;
+  color: black;
+}
+
+a:visited {
+	color: black;
+}
+
+.content { 
+  margin: 0 auto;
+}
+
+/*header*/
+
+header {
+	width: 100%;
+}
+
+/*navigation menu*/
+
+h1>a {
+	text-decoration: none;
+}
+
+#navContainer {
+	padding: 20px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 4em;
+}
+
+nav {
+	font-size: 0.9em;
+	display: block;
+}
+
+.blackNav a{
+	color: black;
+}
+
+.title_nav {
+	font-size: 2rem;
+	float: left;
+	margin-left: 3rem;
+}
+
+.flexNav ul{
+	list-style: none;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.blackNav li{
+	margin-top: 0px;
+	display: inline-block;
+}
+
+.flexNav li a{
+	font-size: 1.3rem;
+	margin-left: 20px;
+	text-decoration: none;
+	padding: 12px 10px 10px 10px;
+}
+
+.flexNav li a:hover {
+  text-decoration: underline black;
+}
+
+.currentPage {
+	text-decoration: underline black;
+}
+
+.menu-icon {
+  width: 50px;
+  display: none;
+}
+
+.back-to-projects {
+  margin: 0 2%;
+  font-weight: bold;
+}
+
+@media (max-width: 1000px) {
+
+  #navContainer {
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .flexNav ul {
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: absolute;
+    right: 2%;
+    background: rgba(255, 255, 255, 0.83);
+    height: 300px;
+    width: 200px;
+    justify-content: center;
+    border: black 1px solid;
+    border-radius: 15px;
+    z-index: 0;
+    margin-top: 10px;
+  }
+
+  .flexNav.close ul {
+    display: none;
+  }
+
+  .flexNav li {
+    padding: 10px;
+  }	
+
+  .flexNav li a {
+    margin-left: 0;
+    padding: 0;
+    font-size: 1.5em;
+  }
+  
+}
+
+/* SANTA CROCE */
+
+.image-main {
+	max-width: 100%;
+}
+
+.graphic-project {
+	padding: 10px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: #9b9b9b 1px solid;
+}
+
+.main-image-container {
+  text-align: center;
+  margin: 0 2%;
+}
+
+.main-image-container p {
+  text-align: justify;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Valeria Lovato ux ui personal website">
+    <title>VALERIA LOVATO DESIGNER</title>
+    <link rel="shortcut icon" href="/logoWHITE.png">
+    <link href="CSS/stylesheet-illustration.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sulphur+Point:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sulphur+Point:wght@300;400&display=swap" rel="stylesheet">
+    <title>Document</title>
+  </head>
+
+  <body>
+    
+    <header>
+      <div class="bg_img">
+        <div id="navContainer" class="whiteNav graphic-project">
+          <h1 class="title_nav"><a href="/index.html">valeria lovato</a></h1>
+          <nav id="navResponsive" class="flexNav close">
+            <img class="menu-icon" src="IMG-UX/Architrip-project/1-header/hamburger-icon.svg" alt="menu icon">
+            <ul>
+              <li><a class="currentPage" href="/index-ux-ui.html" title="design / ux">design / ux</a></li>
+              <li><a href="/architecture.html" title="architecture">architecture</a></li>
+              <li><a href="/about.html" title="about me">about me</a></li>
+              <!-- <li><a href="#blog" title="blog">blog</a></li> -->
+              <li><a href="/contact.html" title="contact">contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+    </header>
+    
+    <div class="back-to-projects">
+      <a href="/index-ux-ui.html">&#60 back to projects</a>
+    </div>
+    
+    <div class="main-image-container">
+      <h2>&#10045 SANTA CROCE &#10045</h2>
+      <img class="image-main" src="/IMG-UX/Santa-croce/SANTA CROCEmini.jpg" alt="santa-croce-illustration">
+      <p>Santa Croce is a semi-natural lake, located in the Alpago valley and surrounded by the mountains "Prealpi" Bellunesi. It is a special place because its comformation lets strong winds to enter the valley at a certain time in the day, usually in the morning and it allows the practise of several water sports such as windsurf, kitesurf and sailing.</p>
+      <p>Apart from the obective beauty of this lake, I have a special attachment to it because I'm often there with my family and it is my happy place where I find peace of mind and tranquillity whenever I crave for it. So I wanted to picture it through my eyes, to have it with me even when I'm far away, so that I can try to find that state of mind when I need it.</p>
+    </div>
+
+    <script>
+      const navResponsive = document.getElementById("navResponsive");
+      const menuIcon = document.querySelector("#navResponsive .menu-icon");
+
+      menuIcon.addEventListener('click', () => navResponsive.classList.toggle('close'))
+    </script>
+
+  </body>
